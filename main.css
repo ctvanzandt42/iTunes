@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: bisque;
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+
+.title {
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+
+input {
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 6rem 0 3rem 0;
+    width: 30vw;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.searchBox {
+    width: 80%;
+    border-bottom: 1px solid black;
+}
+
+.submit {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.returnItem {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 18%;
+    align-items: center;
+}
+
+.songTitle {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    align-self: center;
+    font-size: 1.3rem;
+}
+
+.artist {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 1.7rem;
+    padding: .5rem 0 .5rem 0;
+    transition: .4s;
+    color: black;
+}
+
+.artistLink {
+    text-decoration: none;
+    color: black;
+}
+
+.albumArt {
+    height: 10rem;
+}
+
+#audioplayer {
+    width: 480px;
+    height: 60px;
+    margin: 50px auto auto auto;
+    border: 5px solid;
+}
+
+#pButton {
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    outline: none;
+}
+
+#timeline {
+    width: 400px;
+    height: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, .8);
+}
+
+#playhead {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background: grey;
+}
