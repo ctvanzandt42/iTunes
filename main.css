@@ -1,13 +1,12 @@
 body {
     margin: 0;
     background-color: bisque;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Crimson Text', serif;
     color: black;
 }
 
 .title {
     font-size: 3rem;
-    font-family: 'Pacifico', cursive;
 }
 
 input {
@@ -66,11 +65,13 @@ input {
     padding: .5rem 0 .5rem 0;
     transition: .4s;
     color: black;
+    font-weight: bold;
 }
 
 .artistLink {
     text-decoration: none;
     color: black;
+    font-size: 2rem;
 }
 
 .albumArt {
@@ -82,6 +83,8 @@ input {
     height: 60px;
     margin: 50px auto auto auto;
     border: 5px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #pButton {
@@ -93,6 +96,14 @@ input {
     background-position: center;
     float: left;
     outline: none;
+}
+
+.play {
+    background: url('http://www.alexkatz.me/codepen/img/play.png');
+}
+
+.pause {
+    background: url('http://www.alexkatz.me/codepen/img/pause.png');
 }
 
 #timeline {
